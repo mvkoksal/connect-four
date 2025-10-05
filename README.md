@@ -1,6 +1,6 @@
 # Connect Four - Terminal Version
 
-This is a simple terminal-based rendition of the classic **Connect Four** game.
+This is a simple terminal-based rendition of the classic **Connect Four** game, developed as a group project for the Imperative Problem Solving Course.  
 
 ## Game Overview
 - The game is played on a grid stored in an array.  
