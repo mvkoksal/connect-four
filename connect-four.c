@@ -199,7 +199,7 @@ bool tie () {
 int main () {
     // Create an empty board
     char board[42];
-    for (int i = 0; i < 43; i++) {
+    for (int i = 0; i < 42; i++) {
         board[i] = ' ';
     }
 

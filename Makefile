@@ -1,12 +1,12 @@
 CC := clang
 CFLAGS := -g -Wall
 
-all: game
+all: connect-four
 
 clean:
-	rm -rf game game.dSYM
+	rm -rf connect-four connect-four.dSYM
 
-game: game.c
-	$(CC) $(CFLAGS) -o game game.c
+connect-four:
+	$(CC) $(CFLAGS) -o connect-four connect-four.c
 
 .PHONY: all clean
